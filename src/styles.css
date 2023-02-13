@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: rgb(230, 240, 243);
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-text {
+  margin-top: 1em;
+}
+
+.btn {
+  margin: 2em;
+  padding: 0.3em 0.8em;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn:hover {
+  -webkit-box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.68);
+  -moz-box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.68);
+}
+
+.form {
+  border-radius: 10px;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: -150vh;
+  transition: 0.3s;
+  background: white;
+}
+
+.active {
+  top: 20vh;
+}
+
+.text-input {
+  width: 20em;
+  padding: 0.2em 0.6em;
+  margin-bottom: 1em;
+  border-radius: 10px;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact {
+  padding: 0.5em 0.8em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.3em 0;
+  width: 15em;
+  list-style: none;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.contact-info {
+  padding: 1em;
+}
+
+.contact-phone,
+.contact-email {
+  display: flex;
+  align-items: center;
+}
+
+.icon,
+.icon-main {
+  cursor: pointer;
+  margin-right: 0.2em;
+}
+
+.close-icon {
+  /* margin: 1em 10em; */
+  background: transparent;
+  margin-left: 18em;
+  cursor: pointer;
+}
+
+.icon-main:hover,
+.close-icon:hover {
+  transform: scale(1.5);
+  transition: 0.3s;
+}
+
+.icon-del {
+  cursor: pointer;
+  margin-left: 0.5em;
+}
+.icon-del:hover {
+  color: darkred;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+}
+
+.formText {
+  background: transparent;
+  color: darkred;
+  font-size: 0.8rem;
+}
