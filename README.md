@@ -8,11 +8,16 @@ Delete contacts from the list
 ## How to use
 To use the application:
 
-Go to the CodeSandbox link
-Enter the contact details in the form provided
-Click on the "Add Contact" button to save the details
-The saved contact details will be displayed in a list
-To delete a contact, click on the "Delete" button next to the respective contact
+Go to the CodeSandbox [My Contacts](https://codesandbox.io/s/my-contacts-pjeku4).
+
+Enter the contact details in the form provided.
+
+Click on the "Add Contact" button to save the details.
+
+The saved contact details will be displayed in a list.
+
+To delete a contact, click on the "Bin" icon next to the respective contact.
+
 ## Technologies Used
 React
 JavaScript
